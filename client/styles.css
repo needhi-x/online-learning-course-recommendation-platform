@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  color: white;
+
+  background:
+    radial-gradient(circle at top left, rgba(56,189,248,0.15), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(139,92,246,0.15), transparent 45%),
+    #0a0f1c;
+}
+
+#app {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 16px;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+  backdrop-filter: blur(10px);
+}
+
+button {
+  background: linear-gradient(90deg,#06b6d4,#6366f1);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-box {
+  max-width: 350px;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+
+  text-align: center;
+}
+
+.auth-box input {
+  width: 90%;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.08);
+  color: white;
+}
+
+.auth-box button {
+  width: 95%;
+  margin-top: 10px;
+}
+
+
+/* BACK BUTTON WRAPPER */
+.back-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* SMALL PROFESSIONAL BACK BUTTON */
+.back-btn {
+  padding: 8px 14px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: auto;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+  background: rgba(255,255,255,0.15);
+}
